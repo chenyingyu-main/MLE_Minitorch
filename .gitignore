@@ -1,0 +1,6 @@
+echo ".DS_Store" > .gitignore
+git add .gitignore
+git rm --cached .DS_Store
+git rm --cached Notebook_GPU_Test/.DS_Store
+git commit -m "add .gitignore, remove .DS_Store"
+git push
