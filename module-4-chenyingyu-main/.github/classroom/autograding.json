@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Task 4.1 - 1D Convolution",
+      "setup": "pip install -e .",
+      "run": "python -m pytest -m task4_1 --tb=no -q",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 15,
+      "points": 25
+    },
+    {
+      "name": "Task 4.2 - 2D Convolution", 
+      "setup": "",
+      "run": "python -m pytest -m task4_2 --tb=no -q",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 15,
+      "points": 25
+    },
+    {
+      "name": "Task 4.3 - Pooling Operations",
+      "setup": "",
+      "run": "python -m pytest -m task4_3 --tb=no -q",
+      "input": "",
+      "output": "",
+      "comparison": "included", 
+      "timeout": 15,
+      "points": 25
+    },
+    {
+      "name": "Task 4.4 - Advanced NN Functions",
+      "setup": "",
+      "run": "python -m pytest -m task4_4 --tb=no -q",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 15,
+      "points": 15
+    },
+    {
+      "name": "Style Check",
+      "setup": "",
+      "run": "python -m ruff check . && python -m pyright",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+(minitorch) yingyuchen@YingdeMacBook-Air module-4-chenyingyu-main % streamlit run project/app.py -- 4
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.14.0.2:8501
+
+2025-11-29 00:47:11.945 
+`st.cache` is deprecated and will be removed soon. Please use one of Streamlit's new
+caching commands, `st.cache_data` or `st.cache_resource`. More information
+[in our docs](https://docs.streamlit.io/develop/concepts/architecture/caching).
+
+**Note**: The behavior of `st.cache` was updated in Streamlit 1.36 to the new caching
+logic used by `st.cache_data` and `st.cache_resource`. This might lead to some problems
+or unexpected behavior in certain edge cases.
+
+2025-11-29 00:47:11.946 
+`st.cache` is deprecated and will be removed soon. Please use one of Streamlit's new
+caching commands, `st.cache_data` or `st.cache_resource`. More information
+[in our docs](https://docs.streamlit.io/develop/concepts/architecture/caching).
+
+**Note**: The behavior of `st.cache` was updated in Streamlit 1.36 to the new caching
+logic used by `st.cache_data` and `st.cache_resource`. This might lead to some problems
+or unexpected behavior in certain edge cases.
+
+Loading dataset
+Loading embeddings... This can take a while the first time.
+missing pre-trained embedding for 55 unknown words
+Initializing model...
+Epoch: 1/20, loss: 31.63647857657255, train accuracy: 0.5244444444444445
+Validation accuracy: 55.00%
+Best Valid accuracy: 55.00%
+Epoch: 2/20, loss: 31.4698765328145, train accuracy: 0.5333333333333333
+Validation accuracy: 51.00%
+Best Valid accuracy: 55.00%
+Epoch: 3/20, loss: 29.746273682860775, train accuracy: 0.6155555555555555
+Validation accuracy: 49.00%
+Best Valid accuracy: 55.00%
+Epoch: 4/20, loss: 27.675237161677327, train accuracy: 0.66
+Validation accuracy: 61.00%
+Best Valid accuracy: 61.00%
+Epoch: 5/20, loss: 25.25001846084936, train accuracy: 0.6933333333333334
+Validation accuracy: 57.00%
+Best Valid accuracy: 61.00%
+Epoch: 6/20, loss: 22.896345790272314, train accuracy: 0.7244444444444444
+Validation accuracy: 62.00%
+Best Valid accuracy: 62.00%
+Epoch: 7/20, loss: 20.594011139406323, train accuracy: 0.7422222222222222
+Validation accuracy: 58.00%
+Best Valid accuracy: 62.00%
+Epoch: 8/20, loss: 20.132830413660066, train accuracy: 0.7644444444444445
+Validation accuracy: 65.00%
+Best Valid accuracy: 65.00%
+Epoch: 9/20, loss: 17.247565030043233, train accuracy: 0.8111111111111111
+Validation accuracy: 59.00%
+Best Valid accuracy: 65.00%
+Epoch: 10/20, loss: 16.05894294611292, train accuracy: 0.7911111111111111
+Validation accuracy: 65.00%
+Best Valid accuracy: 65.00%
+Epoch: 11/20, loss: 15.956827640437645, train accuracy: 0.7955555555555556
+Validation accuracy: 67.00%
+Best Valid accuracy: 67.00%
+Epoch: 12/20, loss: 14.100733312601118, train accuracy: 0.8377777777777777
+Validation accuracy: 61.00%
+Best Valid accuracy: 67.00%
+Epoch: 13/20, loss: 12.501163414724337, train accuracy: 0.8466666666666667
+Validation accuracy: 59.00%
+Best Valid accuracy: 67.00%
+Epoch: 14/20, loss: 12.16053643773947, train accuracy: 0.8444444444444444
+Validation accuracy: 72.00%
+Best Valid accuracy: 72.00%
+Epoch: 15/20, loss: 11.269520607825747, train accuracy: 0.8577777777777778
+Validation accuracy: 69.00%
+Best Valid accuracy: 72.00%
+Epoch: 16/20, loss: 13.001427919360054, train accuracy: 0.8422222222222222
+Validation accuracy: 70.00%
+Best Valid accuracy: 72.00%
+Epoch: 17/20, loss: 10.149867394252526, train accuracy: 0.88
+Validation accuracy: 69.00%
+Best Valid accuracy: 72.00%
+Epoch: 18/20, loss: 9.52288505410811, train accuracy: 0.88
+Validation accuracy: 72.00%
+Best Valid accuracy: 72.00%
+Epoch: 19/20, loss: 9.337175081150955, train accuracy: 0.8822222222222222
+Validation accuracy: 69.00%
+Best Valid accuracy: 72.00%
+Epoch: 20/20, loss: 9.467346113013829, train accuracy: 0.8644444444444445
+Validation accuracy: 69.00%
+Best Valid accuracy: 72.00%
